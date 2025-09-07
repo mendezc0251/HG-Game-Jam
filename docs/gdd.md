@@ -1,8 +1,8 @@
 ### Title / Game Name:
-[Working title here]
+Morgan Jumps
 
 ### Game Summary (1-sentence pitch):
-Quickly explain what the game is about.
+Platformer with time travel mechanics
 
 ### Theme / Genre
 
@@ -11,38 +11,34 @@ Main theme(s):
 
 - Longer version: Your game is about fictional HG community member, Morgan (with apologies to anyone actually named Morgan). Morgan can be your main character, the one playing the game, or it could be something that reflects their experiences. You can include them literally as a named character, or use this loosely as a guideline and not include the name - up to you! 
 
-- Time moves strangely for Morgan - hours can feel like minutes, and deadlines appear suddenly (time dilation) 
+- Time moves strangely for Morgan - hours can feel like minutes, and deadlines appear suddenly (time dilation) *
 - Morgan has a collection of half-finished projects that each felt like the most important thing in the world when they started (project hopping) 
 - Morgan connects dots others don't see, creating insights through unconventional mental paths. (nonlinear thought)
 
-Genre(s): Action-adventure (Metroidvania)
+Genre(s): Action
 
 ### Key Pillars
 
 (List 3–5 words or short phrases that define the player experience)
-
-Example: Exploration, Mastery, Tension, Discovery
+- Simple, Action, Shooter, Platformer
 
 ### Core Mechanics
-
-(List the main player actions and unique systems)
-
-Example: Grapple hook for exploration and combat
-
-Example: Time only moves when the player moves
-
-Example: Player can rest at bonfires to heal
+- Jump
+- Jetpack (Double Jump)
+- Gun
+  - Impacts movement
 
 ### Gameplay & Core Loop
 
-Give an example gameplay scenario and then describe the repeatable loop.
+Start from hub, go to levels to complete past projects
 
-Scenario: [Describe how a player would face a challenge or solve a problem]
+Scenario: Shoot enemies in face, traverse with jetpack and gun mods.
 
 Core Loop: Action → Challenge → Reward → Progression
+Get to the end of level -> Beat the boss -> Weapons Upgrade or new Weapon -> Go back to hub, unlock new level
 
-Win Condition(s): [How does the player “win”?]
-Lose Condition(s): [How does the player fail?]
+Win Condition(s): You beat the boss, beat the game when you complete all levels
+Lose Condition(s): When player character runs out of health.
 
 ### Story & World
 
@@ -57,24 +53,31 @@ Main character + supporting characters
 ### Art Style
 
 Visual inspiration / references (include images if possible)
+- Cave story
 
 How should the visuals make the player feel?
+- 
 
 ### Music & Sound
 
 Music style & influences
+- Chiptune
 
 What emotions should the soundtrack evoke?
+- lonely, isolated, focused on mission (motivation)
 
 Sound effects approach
+- as needed
 
 ### Features
 
 (List the important gameplay systems that make your game unique)
+- time travel
 
 ### Audience & Platform
 
 Target players: [casual, hardcore, puzzle fans, etc.]
+- hardcore (people who like platformers and action games, know how to manuver and gauge distances of projectiles)
 
 ### Platform: [PC, console, mobile, web]
 - Web
