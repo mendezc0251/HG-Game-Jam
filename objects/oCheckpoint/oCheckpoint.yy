@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oSpikes",
+  "%Name":"oCheckpoint",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSpikes",
+  "name":"oCheckpoint",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,9 +30,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSpikes",
-    "path":"sprites/sSpikes/sSpikes.yy",
+    "name":"sCheckpoint",
+    "path":"sprites/sCheckpoint/sCheckpoint.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sCheckpoint",
+    "path":"sprites/sCheckpoint/sCheckpoint.yy",
+  },
   "visible":true,
 }

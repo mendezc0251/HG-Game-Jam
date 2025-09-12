@@ -5,3 +5,6 @@ jump_speed = 16;
 
 xsp = 0;
 ysp = 0;
+
+respawn_x=x;
+respawn_y=y;
