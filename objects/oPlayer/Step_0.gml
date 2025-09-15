@@ -1,17 +1,46 @@
-xsp = keyboard_check(vk_right) - keyboard_check(vk_left);
-xsp *= move_speed;
+var jumpKeyPressed = keyboard_check_pressed(vk_space);
+var jumpKeyHold = keyboard_check(vk_space);
 
-if (place_meeting(x, y+2, oGround))
+xsp = (keyboard_check(vk_right) - keyboard_check(vk_left)) * move_speed; 
+ysp += grav;
+
+if place_meeting(x, y+1, oGround)
+{
+	jumpCount = 0;
+}
+else
+{
+	if jumpCount == 0
+	{
+		jumpCount = 1;
+	}
+}
+
+if jumpKeyPressed && jumpCount < jumpMax
+{
+	jumpCount++;
+	
+	jumpTimer = jumpHoldFrames;
+}
+
+if !jumpKeyHold { jumpTimer = 0; }
+
+if jumpTimer > 0
+{
+	ysp = jump_speed;
+	
+	jumpTimer--;
+}
+
+if place_meeting(x + xsp, y, oGround)
+{
+	xsp = 0;
+}
+
+if place_meeting(x + xsp, y + ysp, oGround)
 {
 	ysp = 0;
-	
-	if (!place_meeting(x+xsp, y+2, oGround) && place_meeting(x+xsp, y+10, oGround))
-	{
-		ysp = abs(xsp);
-		xsp = 0;
-	}
-	if (keyboard_check(vk_space)) ysp = -jump_speed;
 }
-else if (ysp < 10) ysp += 1
 
-move_and_collide(xsp, ysp, oGround, 4, 0, 0, move_speed, -1)
+x += xsp;
+y += ysp;
