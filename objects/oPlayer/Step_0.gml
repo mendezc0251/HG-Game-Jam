@@ -1,12 +1,24 @@
 var jumpKeyPressed = keyboard_check_pressed(vk_space);
 var jumpKeyHold = keyboard_check(vk_space);
+var onGroundNow = place_meeting(x,y+1,oGround)
 
+//sound code
+if(jumpKeyPressed){
+audio_play_sound(snd_JumpLeave,1,false)
+}
+if(onGroundNow && !onGroundPrev){
+audio_play_sound(snd_JumpLand,1,false)
+}
+onGroundPrev = onGroundNow;
 //sprite code
 if(keyboard_check(vk_left)){
 	sprite_index=sPlayerLeft}
 else if (keyboard_check(vk_right)){
 	sprite_index=sPlayerRight
-} else {
+}// else if(keyboard_check(vk_space)){
+//	sprite_index=sPlayerJump
+//} 
+else {
 	sprite_index=sPlayerIdle
 }
 

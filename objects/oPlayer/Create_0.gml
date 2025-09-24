@@ -18,3 +18,4 @@ jumpTimer = 0;
 
 direction=1;
 sprite_index=sPlayerIdle;
+onGroundPrev=false;
