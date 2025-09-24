@@ -1,6 +1,15 @@
 var jumpKeyPressed = keyboard_check_pressed(vk_space);
 var jumpKeyHold = keyboard_check(vk_space);
 
+//sprite code
+if(keyboard_check(vk_left)){
+	sprite_index=sPlayerLeft}
+else if (keyboard_check(vk_right)){
+	sprite_index=sPlayerRight
+} else {
+	sprite_index=sPlayerIdle
+}
+
 xsp = (keyboard_check(vk_right) - keyboard_check(vk_left)) * move_speed; 
 ysp += grav;
 
