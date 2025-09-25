@@ -11,16 +11,34 @@ audio_play_sound(snd_JumpLand,1,false)
 }
 onGroundPrev = onGroundNow;
 //sprite code
-if(keyboard_check(vk_left)){
-	sprite_index=sPlayerLeft}
-else if (keyboard_check(vk_right)){
-	sprite_index=sPlayerRight
-}// else if(keyboard_check(vk_space)){
-//	sprite_index=sPlayerJump
-//} 
-else {
-	sprite_index=sPlayerIdle
+
+
+if(!onGroundNow){
+	//Player in air
+	if (xsp < 0) {
+        if (sprite_index != sPlayerJumpLeft) {
+            sprite_index = sPlayerJumpLeft;
+            image_index = 0;
+            image_speed = 1;
+        }
+    } else {
+        if (sprite_index != sPlayerJump) {
+            sprite_index = sPlayerJump;
+            image_index = 0;
+            image_speed = 1;
+        }
+    }
+} else {
+	if(keyboard_check(vk_left)){
+		sprite_index=sPlayerLeft}
+	else if (keyboard_check(vk_right)){
+		sprite_index=sPlayerRight
+	} else {
+		sprite_index=sPlayerIdle
+	}
 }
+
+
 
 xsp = (keyboard_check(vk_right) - keyboard_check(vk_left)) * move_speed; 
 ysp += grav;
