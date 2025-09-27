@@ -16,6 +16,7 @@ jumpCount = 0;
 jumpHoldFrames = 15;
 jumpTimer = 0;
 
+facing = 1;
 direction=1;
 sprite_index=sPlayerIdle;
 onGroundPrev=false;
