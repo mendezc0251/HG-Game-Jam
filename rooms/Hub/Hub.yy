@@ -116,6 +116,7 @@
     {"name":"inst_6C4A1BEF","path":"rooms/Hub/Hub.yy",},
     {"name":"inst_6DB08671","path":"rooms/Hub/Hub.yy",},
     {"name":"inst_13187B23","path":"rooms/Hub/Hub.yy",},
+    {"name":"inst_F3F103C","path":"rooms/Hub/Hub.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -230,6 +231,7 @@
         {"$GMRInstance":"v2","%Name":"inst_6C4A1BEF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C4A1BEF","objectId":{"name":"oGround","path":"objects/oGround/oGround.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":64.0,},
         {"$GMRInstance":"v2","%Name":"inst_6DB08671","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DB08671","objectId":{"name":"oGround","path":"objects/oGround/oGround.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":32.0,},
         {"$GMRInstance":"v2","%Name":"inst_13187B23","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13187B23","objectId":{"name":"oGround","path":"objects/oGround/oGround.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v2","%Name":"inst_F3F103C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F3F103C","objectId":{"name":"oMusicController","path":"objects/oMusicController/oMusicController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":480.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4294931096,"depth":100,"effectEnabled":true,"effectType":"_filter_vignette","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
         {"name":"g_VignetteEdges","type":0,"value":"0.5",},

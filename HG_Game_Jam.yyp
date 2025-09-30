@@ -50,6 +50,7 @@
     {"id":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},},
     {"id":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
     {"id":{"name":"Level_3","path":"rooms/Level_3/Level_3.yy",},},
+    {"id":{"name":"Hub6","path":"sounds/Hub6/Hub6.yy",},},
     {"id":{"name":"snd_JumpLand","path":"sounds/snd_JumpLand/snd_JumpLand.yy",},},
     {"id":{"name":"snd_JumpLeave","path":"sounds/snd_JumpLeave/snd_JumpLeave.yy",},},
     {"id":{"name":"snd_LevelTheme","path":"sounds/snd_LevelTheme/snd_LevelTheme.yy",},},
