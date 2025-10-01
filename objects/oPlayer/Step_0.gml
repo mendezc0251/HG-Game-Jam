@@ -95,8 +95,14 @@ y += ysp;
 
 if (mouse_check_button_pressed(mb_left)) {
 	var offsetX = 8 * facing;
-	var offsetY = -32;
+	var offsetY = -40;
     var b = instance_create_layer(x + offsetX, y + offsetY, "Instances", oBullet);
     b.speed = 10;
     b.direction = (facing == 1) ? 0 : 180;
+	audio_play_sound(snd_shooting, 1, false);
+}
+
+if place_meeting(x+1, y, oEnemy)
+{
+	room_restart();
 }
